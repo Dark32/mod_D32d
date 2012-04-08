@@ -31,10 +31,10 @@ public class mod_D32d extends BaseMod
 		
 		//Wool Seat
 		ModLoader.registerBlock(halfwool, ItemHalfWool.class);
-		ModLoader.addName(halfwool, "Шерстяной полублок");
+		ModLoader.addName(halfwool, "Шерстяной цветной полублок");
 		halfwool.blockIndexInTexture = 129;
 		ModLoader.registerBlock(dublehalfwool, ItemHalfWool.class);
-		ModLoader.addName(dublehalfwool, "Шерстяной двойной полублок");
+		ModLoader.addName(dublehalfwool, "Шерстяной цветной двойной полублок");
 		halfwool.blockIndexInTexture = 129;
 		for (int i = 0; i <= 15; i++)
 		{
